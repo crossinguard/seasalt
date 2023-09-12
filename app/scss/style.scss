@@ -1,0 +1,27 @@
+/*-- scss:defaults --*/
+// Font
+$web-font-path: "https://fonts.googleapis.com/css2?family=Fira+Code&family=Fira+Sans:wght@100;400;700&display=swap" !default;
+@if $web-font-path {
+  @import url($web-font-path);
+}
+
+$font-family-sans-serif: "Fira Sans", sans-serif;
+$font-family-monospace: "Fira Code", monospace;
+
+/*-- scss:rules --*/
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+}

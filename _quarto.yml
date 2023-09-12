@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  favicon: favicon.ico
+  page-footer:
+    left: "SeaSalt &copy; 2023"
+    center:
+      - icon: envelope-fill
+        href: mailto:w.brett.egbert@gmail.com
+
+format:
+  html:
+    theme: app\scss\style.scss
+    page-layout: custom
+    link-external-icon: true
+    link-external-newwindow: true
+    anchor-sections: false
+    reference-location: block
